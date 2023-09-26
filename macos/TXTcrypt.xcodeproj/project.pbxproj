@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		256AC3DA0F4B6AC300CF3369 /* TXTcryptAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* TXTcryptAppDelegate.m */; };
+		4A72641912DDB39700F876DD /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4A72641812DDB39700F876DD /* icon.icns */; };
+		4A7264B712DDB88400F876DD /* asn_codecs_prim.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A72648312DDB88400F876DD /* asn_codecs_prim.c */; };
+		4A7264B812DDB88400F876DD /* asn_SET_OF.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A72648612DDB88400F876DD /* asn_SET_OF.c */; };
+		4A7264B912DDB88400F876DD /* ber_decoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A72648912DDB88400F876DD /* ber_decoder.c */; };
+		4A7264BA12DDB88400F876DD /* ber_tlv_length.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A72648B12DDB88400F876DD /* ber_tlv_length.c */; };
+		4A7264BB12DDB88400F876DD /* ber_tlv_tag.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A72648D12DDB88400F876DD /* ber_tlv_tag.c */; };
+		4A7264BC12DDB88400F876DD /* BIT_STRING.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A72648F12DDB88400F876DD /* BIT_STRING.c */; };
+		4A7264BD12DDB88400F876DD /* constr_SEQUENCE.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A72649112DDB88400F876DD /* constr_SEQUENCE.c */; };
+		4A7264BE12DDB88400F876DD /* constr_SET_OF.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A72649312DDB88400F876DD /* constr_SET_OF.c */; };
+		4A7264BF12DDB88400F876DD /* constr_TYPE.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A72649512DDB88400F876DD /* constr_TYPE.c */; };
+		4A7264C012DDB88400F876DD /* constraints.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A72649712DDB88400F876DD /* constraints.c */; };
+		4A7264C112DDB88400F876DD /* der_encoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A72649912DDB88400F876DD /* der_encoder.c */; };
+		4A7264C212DDB88400F876DD /* ethernet.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A72649B12DDB88400F876DD /* ethernet.c */; };
+		4A7264C312DDB88400F876DD /* INTEGER.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A72649D12DDB88400F876DD /* INTEGER.c */; };
+		4A7264C412DDB88400F876DD /* NativeEnumerated.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A72649F12DDB88400F876DD /* NativeEnumerated.c */; };
+		4A7264C512DDB88400F876DD /* NativeInteger.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A7264A112DDB88400F876DD /* NativeInteger.c */; };
+		4A7264C612DDB88400F876DD /* OCTET_STRING.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A7264A312DDB88400F876DD /* OCTET_STRING.c */; };
+		4A7264C712DDB88400F876DD /* Payload.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A7264A512DDB88400F876DD /* Payload.c */; };
+		4A7264C812DDB88400F876DD /* per_decoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A7264A712DDB88400F876DD /* per_decoder.c */; };
+		4A7264C912DDB88400F876DD /* per_encoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A7264A912DDB88400F876DD /* per_encoder.c */; };
+		4A7264CA12DDB88400F876DD /* per_opentype.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A7264AB12DDB88400F876DD /* per_opentype.c */; };
+		4A7264CB12DDB88400F876DD /* per_support.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A7264AD12DDB88400F876DD /* per_support.c */; };
+		4A7264CC12DDB88400F876DD /* ReceiptAttribute.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A7264AF12DDB88400F876DD /* ReceiptAttribute.c */; };
+		4A7264CD12DDB88400F876DD /* xer_decoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A7264B112DDB88400F876DD /* xer_decoder.c */; };
+		4A7264CE12DDB88400F876DD /* xer_encoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A7264B312DDB88400F876DD /* xer_encoder.c */; };
+		4A7264CF12DDB88400F876DD /* xer_support.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A7264B512DDB88400F876DD /* xer_support.c */; };
+		4A7264D212DDB88E00F876DD /* VAValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7264D112DDB88E00F876DD /* VAValidation.m */; };
+		4A7265B112DDB8ED00F876DD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7265B012DDB8ED00F876DD /* Security.framework */; };
+		4A7265FB12DDB90600F876DD /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7265FA12DDB90600F876DD /* IOKit.framework */; };
+		4AB0782313D9C34C00267D1C /* TXTcrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB0782213D9C34C00267D1C /* TXTcrypt.m */; };
+		4ACF69D713B30E7600E6AA38 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 4ACF69D613B30E7600E6AA38 /* background.png */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		256AC3D80F4B6AC300CF3369 /* TXTcryptAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXTcryptAppDelegate.h; sourceTree = "<group>"; };
+		256AC3D90F4B6AC300CF3369 /* TXTcryptAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXTcryptAppDelegate.m; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* TXTcrypt_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXTcrypt_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		4A72641812DDB39700F876DD /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		4A72648112DDB88400F876DD /* asn_application.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn_application.h; sourceTree = "<group>"; };
+		4A72648212DDB88400F876DD /* asn_codecs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn_codecs.h; sourceTree = "<group>"; };
+		4A72648312DDB88400F876DD /* asn_codecs_prim.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = asn_codecs_prim.c; sourceTree = "<group>"; };
+		4A72648412DDB88400F876DD /* asn_codecs_prim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn_codecs_prim.h; sourceTree = "<group>"; };
+		4A72648512DDB88400F876DD /* asn_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn_internal.h; sourceTree = "<group>"; };
+		4A72648612DDB88400F876DD /* asn_SET_OF.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = asn_SET_OF.c; sourceTree = "<group>"; };
+		4A72648712DDB88400F876DD /* asn_SET_OF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn_SET_OF.h; sourceTree = "<group>"; };
+		4A72648812DDB88400F876DD /* asn_system.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn_system.h; sourceTree = "<group>"; };
+		4A72648912DDB88400F876DD /* ber_decoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ber_decoder.c; sourceTree = "<group>"; };
+		4A72648A12DDB88400F876DD /* ber_decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ber_decoder.h; sourceTree = "<group>"; };
+		4A72648B12DDB88400F876DD /* ber_tlv_length.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ber_tlv_length.c; sourceTree = "<group>"; };
+		4A72648C12DDB88400F876DD /* ber_tlv_length.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ber_tlv_length.h; sourceTree = "<group>"; };
+		4A72648D12DDB88400F876DD /* ber_tlv_tag.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ber_tlv_tag.c; sourceTree = "<group>"; };
+		4A72648E12DDB88400F876DD /* ber_tlv_tag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ber_tlv_tag.h; sourceTree = "<group>"; };
+		4A72648F12DDB88400F876DD /* BIT_STRING.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BIT_STRING.c; sourceTree = "<group>"; };
+		4A72649012DDB88400F876DD /* BIT_STRING.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIT_STRING.h; sourceTree = "<group>"; };
+		4A72649112DDB88400F876DD /* constr_SEQUENCE.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = constr_SEQUENCE.c; sourceTree = "<group>"; };
+		4A72649212DDB88400F876DD /* constr_SEQUENCE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constr_SEQUENCE.h; sourceTree = "<group>"; };
+		4A72649312DDB88400F876DD /* constr_SET_OF.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = constr_SET_OF.c; sourceTree = "<group>"; };
+		4A72649412DDB88400F876DD /* constr_SET_OF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constr_SET_OF.h; sourceTree = "<group>"; };
+		4A72649512DDB88400F876DD /* constr_TYPE.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = constr_TYPE.c; sourceTree = "<group>"; };
+		4A72649612DDB88400F876DD /* constr_TYPE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constr_TYPE.h; sourceTree = "<group>"; };
+		4A72649712DDB88400F876DD /* constraints.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = constraints.c; sourceTree = "<group>"; };
+		4A72649812DDB88400F876DD /* constraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constraints.h; sourceTree = "<group>"; };
+		4A72649912DDB88400F876DD /* der_encoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = der_encoder.c; sourceTree = "<group>"; };
+		4A72649A12DDB88400F876DD /* der_encoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = der_encoder.h; sourceTree = "<group>"; };
+		4A72649B12DDB88400F876DD /* ethernet.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ethernet.c; sourceTree = "<group>"; };
+		4A72649C12DDB88400F876DD /* ethernet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ethernet.h; sourceTree = "<group>"; };
+		4A72649D12DDB88400F876DD /* INTEGER.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = INTEGER.c; sourceTree = "<group>"; };
+		4A72649E12DDB88400F876DD /* INTEGER.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INTEGER.h; sourceTree = "<group>"; };
+		4A72649F12DDB88400F876DD /* NativeEnumerated.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = NativeEnumerated.c; sourceTree = "<group>"; };
+		4A7264A012DDB88400F876DD /* NativeEnumerated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeEnumerated.h; sourceTree = "<group>"; };
+		4A7264A112DDB88400F876DD /* NativeInteger.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = NativeInteger.c; sourceTree = "<group>"; };
+		4A7264A212DDB88400F876DD /* NativeInteger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeInteger.h; sourceTree = "<group>"; };
+		4A7264A312DDB88400F876DD /* OCTET_STRING.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = OCTET_STRING.c; sourceTree = "<group>"; };
+		4A7264A412DDB88400F876DD /* OCTET_STRING.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCTET_STRING.h; sourceTree = "<group>"; };
+		4A7264A512DDB88400F876DD /* Payload.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Payload.c; sourceTree = "<group>"; };
+		4A7264A612DDB88400F876DD /* Payload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Payload.h; sourceTree = "<group>"; };
+		4A7264A712DDB88400F876DD /* per_decoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = per_decoder.c; sourceTree = "<group>"; };
+		4A7264A812DDB88400F876DD /* per_decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = per_decoder.h; sourceTree = "<group>"; };
+		4A7264A912DDB88400F876DD /* per_encoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = per_encoder.c; sourceTree = "<group>"; };
+		4A7264AA12DDB88400F876DD /* per_encoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = per_encoder.h; sourceTree = "<group>"; };
+		4A7264AB12DDB88400F876DD /* per_opentype.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = per_opentype.c; sourceTree = "<group>"; };
+		4A7264AC12DDB88400F876DD /* per_opentype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = per_opentype.h; sourceTree = "<group>"; };
+		4A7264AD12DDB88400F876DD /* per_support.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = per_support.c; sourceTree = "<group>"; };
+		4A7264AE12DDB88400F876DD /* per_support.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = per_support.h; sourceTree = "<group>"; };
+		4A7264AF12DDB88400F876DD /* ReceiptAttribute.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ReceiptAttribute.c; sourceTree = "<group>"; };
+		4A7264B012DDB88400F876DD /* ReceiptAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceiptAttribute.h; sourceTree = "<group>"; };
+		4A7264B112DDB88400F876DD /* xer_decoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xer_decoder.c; sourceTree = "<group>"; };
+		4A7264B212DDB88400F876DD /* xer_decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xer_decoder.h; sourceTree = "<group>"; };
+		4A7264B312DDB88400F876DD /* xer_encoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xer_encoder.c; sourceTree = "<group>"; };
+		4A7264B412DDB88400F876DD /* xer_encoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xer_encoder.h; sourceTree = "<group>"; };
+		4A7264B512DDB88400F876DD /* xer_support.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xer_support.c; sourceTree = "<group>"; };
+		4A7264B612DDB88400F876DD /* xer_support.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xer_support.h; sourceTree = "<group>"; };
+		4A7264D012DDB88E00F876DD /* VAValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VAValidation.h; path = ../VAValidation.h; sourceTree = SOURCE_ROOT; };
+		4A7264D112DDB88E00F876DD /* VAValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VAValidation.m; path = ../VAValidation.m; sourceTree = SOURCE_ROOT; };
+		4A7265B012DDB8ED00F876DD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = /System/Library/Frameworks/Security.framework; sourceTree = "<absolute>"; };
+		4A7265FA12DDB90600F876DD /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		4AB0782113D9C34C00267D1C /* TXTcrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXTcrypt.h; sourceTree = "<group>"; };
+		4AB0782213D9C34C00267D1C /* TXTcrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXTcrypt.m; sourceTree = "<group>"; };
+		4ACF69D613B30E7600E6AA38 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		4AF1C7BD13D8AE400013AC95 /* TXTcrypt.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = TXTcrypt.entitlements; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* TXTcrypt-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TXTcrypt-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* TXTcrypt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TXTcrypt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				4A7265B112DDB8ED00F876DD /* Security.framework in Frameworks */,
+				4A7265FB12DDB90600F876DD /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4A7264D012DDB88E00F876DD /* VAValidation.h */,
+				4A7264D112DDB88E00F876DD /* VAValidation.m */,
+				4AB0782113D9C34C00267D1C /* TXTcrypt.h */,
+				4AB0782213D9C34C00267D1C /* TXTcrypt.m */,
+				256AC3D80F4B6AC300CF3369 /* TXTcryptAppDelegate.h */,
+				256AC3D90F4B6AC300CF3369 /* TXTcryptAppDelegate.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A7265FA12DDB90600F876DD /* IOKit.framework */,
+				4A7265B012DDB8ED00F876DD /* Security.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* TXTcrypt.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* TXTcrypt */ = {
+			isa = PBXGroup;
+			children = (
+				4A72648012DDB88400F876DD /* asn1 */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = TXTcrypt;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3F00F4B6AF500CF3369 /* TXTcrypt_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4AF1C7BD13D8AE400013AC95 /* TXTcrypt.entitlements */,
+				4ACF69D613B30E7600E6AA38 /* background.png */,
+				4A72641812DDB39700F876DD /* icon.icns */,
+				8D1107310486CEB800E47090 /* TXTcrypt-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A72648012DDB88400F876DD /* asn1 */ = {
+			isa = PBXGroup;
+			children = (
+				4A72648112DDB88400F876DD /* asn_application.h */,
+				4A72648212DDB88400F876DD /* asn_codecs.h */,
+				4A72648312DDB88400F876DD /* asn_codecs_prim.c */,
+				4A72648412DDB88400F876DD /* asn_codecs_prim.h */,
+				4A72648512DDB88400F876DD /* asn_internal.h */,
+				4A72648612DDB88400F876DD /* asn_SET_OF.c */,
+				4A72648712DDB88400F876DD /* asn_SET_OF.h */,
+				4A72648812DDB88400F876DD /* asn_system.h */,
+				4A72648912DDB88400F876DD /* ber_decoder.c */,
+				4A72648A12DDB88400F876DD /* ber_decoder.h */,
+				4A72648B12DDB88400F876DD /* ber_tlv_length.c */,
+				4A72648C12DDB88400F876DD /* ber_tlv_length.h */,
+				4A72648D12DDB88400F876DD /* ber_tlv_tag.c */,
+				4A72648E12DDB88400F876DD /* ber_tlv_tag.h */,
+				4A72648F12DDB88400F876DD /* BIT_STRING.c */,
+				4A72649012DDB88400F876DD /* BIT_STRING.h */,
+				4A72649112DDB88400F876DD /* constr_SEQUENCE.c */,
+				4A72649212DDB88400F876DD /* constr_SEQUENCE.h */,
+				4A72649312DDB88400F876DD /* constr_SET_OF.c */,
+				4A72649412DDB88400F876DD /* constr_SET_OF.h */,
+				4A72649512DDB88400F876DD /* constr_TYPE.c */,
+				4A72649612DDB88400F876DD /* constr_TYPE.h */,
+				4A72649712DDB88400F876DD /* constraints.c */,
+				4A72649812DDB88400F876DD /* constraints.h */,
+				4A72649912DDB88400F876DD /* der_encoder.c */,
+				4A72649A12DDB88400F876DD /* der_encoder.h */,
+				4A72649B12DDB88400F876DD /* ethernet.c */,
+				4A72649C12DDB88400F876DD /* ethernet.h */,
+				4A72649D12DDB88400F876DD /* INTEGER.c */,
+				4A72649E12DDB88400F876DD /* INTEGER.h */,
+				4A72649F12DDB88400F876DD /* NativeEnumerated.c */,
+				4A7264A012DDB88400F876DD /* NativeEnumerated.h */,
+				4A7264A112DDB88400F876DD /* NativeInteger.c */,
+				4A7264A212DDB88400F876DD /* NativeInteger.h */,
+				4A7264A312DDB88400F876DD /* OCTET_STRING.c */,
+				4A7264A412DDB88400F876DD /* OCTET_STRING.h */,
+				4A7264A512DDB88400F876DD /* Payload.c */,
+				4A7264A612DDB88400F876DD /* Payload.h */,
+				4A7264A712DDB88400F876DD /* per_decoder.c */,
+				4A7264A812DDB88400F876DD /* per_decoder.h */,
+				4A7264A912DDB88400F876DD /* per_encoder.c */,
+				4A7264AA12DDB88400F876DD /* per_encoder.h */,
+				4A7264AB12DDB88400F876DD /* per_opentype.c */,
+				4A7264AC12DDB88400F876DD /* per_opentype.h */,
+				4A7264AD12DDB88400F876DD /* per_support.c */,
+				4A7264AE12DDB88400F876DD /* per_support.h */,
+				4A7264AF12DDB88400F876DD /* ReceiptAttribute.c */,
+				4A7264B012DDB88400F876DD /* ReceiptAttribute.h */,
+				4A7264B112DDB88400F876DD /* xer_decoder.c */,
+				4A7264B212DDB88400F876DD /* xer_decoder.h */,
+				4A7264B312DDB88400F876DD /* xer_encoder.c */,
+				4A7264B412DDB88400F876DD /* xer_encoder.h */,
+				4A7264B512DDB88400F876DD /* xer_support.c */,
+				4A7264B612DDB88400F876DD /* xer_support.h */,
+			);
+			name = asn1;
+			path = "../@tmp/asn1";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* TXTcrypt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "TXTcrypt" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TXTcrypt;
+			productInstallPath = "$(HOME)/Applications";
+			productName = TXTcrypt;
+			productReference = 8D1107320486CEB800E47090 /* TXTcrypt.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TXTcrypt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* TXTcrypt */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* TXTcrypt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				4A72641912DDB39700F876DD /* icon.icns in Resources */,
+				4ACF69D713B30E7600E6AA38 /* background.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				256AC3DA0F4B6AC300CF3369 /* TXTcryptAppDelegate.m in Sources */,
+				4A7264B712DDB88400F876DD /* asn_codecs_prim.c in Sources */,
+				4A7264B812DDB88400F876DD /* asn_SET_OF.c in Sources */,
+				4A7264B912DDB88400F876DD /* ber_decoder.c in Sources */,
+				4A7264BA12DDB88400F876DD /* ber_tlv_length.c in Sources */,
+				4A7264BB12DDB88400F876DD /* ber_tlv_tag.c in Sources */,
+				4A7264BC12DDB88400F876DD /* BIT_STRING.c in Sources */,
+				4A7264BD12DDB88400F876DD /* constr_SEQUENCE.c in Sources */,
+				4A7264BE12DDB88400F876DD /* constr_SET_OF.c in Sources */,
+				4A7264BF12DDB88400F876DD /* constr_TYPE.c in Sources */,
+				4A7264C012DDB88400F876DD /* constraints.c in Sources */,
+				4A7264C112DDB88400F876DD /* der_encoder.c in Sources */,
+				4A7264C212DDB88400F876DD /* ethernet.c in Sources */,
+				4A7264C312DDB88400F876DD /* INTEGER.c in Sources */,
+				4A7264C412DDB88400F876DD /* NativeEnumerated.c in Sources */,
+				4A7264C512DDB88400F876DD /* NativeInteger.c in Sources */,
+				4A7264C612DDB88400F876DD /* OCTET_STRING.c in Sources */,
+				4A7264C712DDB88400F876DD /* Payload.c in Sources */,
+				4A7264C812DDB88400F876DD /* per_decoder.c in Sources */,
+				4A7264C912DDB88400F876DD /* per_encoder.c in Sources */,
+				4A7264CA12DDB88400F876DD /* per_opentype.c in Sources */,
+				4A7264CB12DDB88400F876DD /* per_support.c in Sources */,
+				4A7264CC12DDB88400F876DD /* ReceiptAttribute.c in Sources */,
+				4A7264CD12DDB88400F876DD /* xer_decoder.c in Sources */,
+				4A7264CE12DDB88400F876DD /* xer_encoder.c in Sources */,
+				4A7264CF12DDB88400F876DD /* xer_support.c in Sources */,
+				4A7264D212DDB88E00F876DD /* VAValidation.m in Sources */,
+				4AB0782313D9C34C00267D1C /* TXTcrypt.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = TXTcrypt.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TXTcrypt_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "TXTcrypt-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = TXTcrypt;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = TXTcrypt.entitlements;
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TXTcrypt_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "TXTcrypt-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = TXTcrypt;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-lcrypto";
+				SDKROOT = macosx;
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application: Vlad Alexa";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-lcrypto";
+				SDKROOT = macosx;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "TXTcrypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TXTcrypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

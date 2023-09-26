@@ -1,0 +1,229 @@
+// !$*UTF8*$!
+{
+	089C165DFE840E0CC02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1002, 607}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 45}";
+		};
+	};
+	256AC3D80F4B6AC300CF3369 /* TXTcryptAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1002, 630}}";
+			sepNavSelRange = "{246, 6}";
+			sepNavVisRange = "{0, 309}";
+		};
+	};
+	256AC3D90F4B6AC300CF3369 /* TXTcryptAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1002, 610}}";
+			sepNavSelRange = "{411, 0}";
+			sepNavVisRange = "{0, 590}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = 4A2AC71B12DDB21000379A3B /* TXTcrypt */;
+		activeTarget = 8D1107260486CEB800E47090 /* TXTcrypt */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* TXTcrypt */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = 4A2AC72D12DDB21C00379A3B /* Code sense */;
+		executables = (
+			4A2AC71B12DDB21000379A3B /* TXTcrypt */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					824,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 317676420;
+			PBXWorkspaceStateSaveDate = 317676420;
+		};
+		perUserProjectItems = {
+			4A72645C12DDB6DB00F876DD /* PBXTextBookmark */ = 4A72645C12DDB6DB00F876DD /* PBXTextBookmark */;
+			4A72645D12DDB6DB00F876DD /* PlistBookmark */ = 4A72645D12DDB6DB00F876DD /* PlistBookmark */;
+			4A7267D212DDBCC100F876DD /* PBXTextBookmark */ = 4A7267D212DDBCC100F876DD /* PBXTextBookmark */;
+			4A72680912DDBE1D00F876DD /* PBXTextBookmark */ = 4A72680912DDBE1D00F876DD /* PBXTextBookmark */;
+			4A8F470612EF5C8200A46195 /* PBXTextBookmark */ = 4A8F470612EF5C8200A46195 /* PBXTextBookmark */;
+			4A8F470712EF5C8200A46195 /* PBXTextBookmark */ = 4A8F470712EF5C8200A46195 /* PBXTextBookmark */;
+			4A8F470812EF5C8200A46195 /* PBXTextBookmark */ = 4A8F470812EF5C8200A46195 /* PBXTextBookmark */;
+			4A8F470912EF5C8200A46195 /* PBXTextBookmark */ = 4A8F470912EF5C8200A46195 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 4A2AC72C12DDB21C00379A3B /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	4A2AC71B12DDB21000379A3B /* TXTcrypt */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = TXTcrypt;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	4A2AC72C12DDB21C00379A3B /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	4A2AC72D12DDB21C00379A3B /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	4A2AC74912DDB28400379A3B /* txtcrypt.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1002, 630}}";
+			sepNavSelRange = "{530, 133}";
+			sepNavVisRange = "{0, 952}";
+		};
+	};
+	4A2AC74A12DDB28400379A3B /* txtcrypt.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1002, 4927}}";
+			sepNavSelRange = "{1163, 16}";
+			sepNavVisRange = "{315, 1739}";
+		};
+	};
+	4A72645C12DDB6DB00F876DD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 45;
+		vrLoc = 0;
+	};
+	4A72645D12DDB6DB00F876DD /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* TXTcrypt-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Volumes/Storage/vlad/work/@OSX/TXTcrypt/TXTcrypt-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	4A7264D112DDB88E00F876DD /* VAValidation.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1153, 3939}}";
+			sepNavSelRange = "{8815, 0}";
+			sepNavVisRange = "{7898, 1335}";
+		};
+	};
+	4A7267D212DDBCC100F876DD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* TXTcryptAppDelegate.h */;
+		name = "TXTcryptAppDelegate.h: 12";
+		rLen = 6;
+		rLoc = 246;
+		rType = 0;
+		vrLen = 309;
+		vrLoc = 0;
+	};
+	4A72680912DDBE1D00F876DD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4A2AC74912DDB28400379A3B /* txtcrypt.h */;
+		name = "txtcrypt.h: 26";
+		rLen = 133;
+		rLoc = 530;
+		rType = 0;
+		vrLen = 952;
+		vrLoc = 0;
+	};
+	4A8F470612EF5C8200A46195 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4A2AC74A12DDB28400379A3B /* txtcrypt.m */;
+		name = "txtcrypt.m: 41";
+		rLen = 16;
+		rLoc = 1163;
+		rType = 0;
+		vrLen = 1739;
+		vrLoc = 315;
+	};
+	4A8F470712EF5C8200A46195 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* TXTcryptAppDelegate.m */;
+		name = "TXTcryptAppDelegate.m: 20";
+		rLen = 0;
+		rLoc = 411;
+		rType = 0;
+		vrLen = 590;
+		vrLoc = 0;
+	};
+	4A8F470812EF5C8200A46195 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4A7264D112DDB88E00F876DD /* VAValidation.m */;
+		name = "VAValidation.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1520;
+		vrLoc = 5157;
+	};
+	4A8F470912EF5C8200A46195 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4A7264D112DDB88E00F876DD /* VAValidation.m */;
+		name = "VAValidation.m: 285";
+		rLen = 0;
+		rLoc = 8815;
+		rType = 0;
+		vrLen = 1335;
+		vrLoc = 7898;
+	};
+	8D1107260486CEB800E47090 /* TXTcrypt */ = {
+		activeExec = 0;
+		executables = (
+			4A2AC71B12DDB21000379A3B /* TXTcrypt */,
+		);
+	};
+}
